@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+:root {
+  /*colors*/
+  --brightOrange: hsl(31, 77%, 52%);
+  --darkCyan: hsl(184, 100%, 22%);
+  --veryDarkCyan: hsl(179, 100%, 13%);
+
+  /*background, headings, buttons*/
+  --veryLightgray: hsl(0, 0%, 95%);
+
+  /*paragraphs*/
+  --transparentWhite: hsla(0, 0%, 100%, 0.75);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--veryLightgray);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 16px;
+}
+
+.conteiner {
+  max-width: 375px;
+  margin: 1rem auto;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.card_primary {
+  padding: 1.5rem;
+  background-color: var(--brightOrange);
+}
+.card_secondary {
+  padding: 1.5rem;
+  background-color: var(--darkCyan);
+}
+.card_tertiary {
+  padding: 1.5rem;
+  background-color: var(--veryDarkCyan);
+}
+
+.card_img {
+  height: 40px;
+  width: 65px;
+}
+.card_title {
+  font-size: 1.5rem;
+  font-family: "Big Shoulders Display", sans-serif;
+  margin: 1rem 0;
+  color: var(--veryLightgray);
+  text-transform: uppercase;
+}
+.card_description {
+  font-size: 1rem;
+  font-family: "Lexend Deca", sans-serif;
+  margin: 1rem 0;
+  color: var(--transparentWhite);
+  width: 14rem;
+  line-height: 1.5rem;
+}
+.card_btn {
+  margin: 0.5rem 0;
+  width: 7.5rem;
+  padding: 0.5rem;
+  border: var(--transparentWhite) 2px solid;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.8rem;
+}
+.card_btn:hover {
+  margin: 0.5rem 0;
+  background-color: transparent;
+  border: var(--transparentWhite) 2px solid;
+  color: var(--transparentWhite);
+}
+
+.btn_primary {
+  color: var(--brightOrange);
+}
+.btn_secondary {
+  color: var(--darkCyan);
+}
+.btn_tertiary {
+  color: var(--veryDarkCyan);
+}
+/* ----------------------DESKTOP-------------*/
+
+@media (min-width: 1200px) {
+  
+  .conteiner {
+    display: flex;
+    max-width: 1200px;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center; 
+    gap: 0.5rem;
+  }
+  .card_primary,
+  .card_secondary,
+  .card_tertiary{
+    border-radius: 2rem; 
+    padding: 1.5rem;   
+  }
+}
+
+/* ----------------------FOOTER-------------*/
+footer {
+  padding: 1rem;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  color: var(--transparentWhite);
+  background-color: var(--veryDarkCyan);
+}
+footer a {
+  color: hsl(228, 68%, 76%);
+}
