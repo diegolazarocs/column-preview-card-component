@@ -2,10 +2,7 @@
 
 ## Projeto Frontend Mentor - 3
 
-Mobile Mode
-![Mobile Mode](https://github.com/diegolazarocs/column-preview-card-component/assets/111025421/4105f97d-f246-404b-b64f-10e0cb6d1d88)
-
-Desktop Mode
-![Desktop Mode](https://github.com/diegolazarocs/column-preview-card-component/assets/111025421/38a38dc3-845c-4980-a51f-328914db128a)
+![image](https://github.com/user-attachments/assets/1642ebf2-d037-4e24-b1ee-a77c4c8d4edf)
 
 
+![image](https://github.com/user-attachments/assets/d4e5c242-5e5c-4b68-b52f-4a275283efbd)
